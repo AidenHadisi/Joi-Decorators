@@ -1,0 +1,60 @@
+{
+	"name": "joi-decorators",
+	"version": "1.0.0",
+	"description": "Typescript decorators for Joi validator.",
+	"exports": "./dist/index.js",
+	"author": "Aiden Hadisi",
+	"license": "MIT",
+	"engines": {
+		"node": ">=12"
+	},
+	"scripts": {
+		"build": "del dist && tsc",
+		"prepare": "npm run build",
+		"test": "jest",
+		"coverage": "jest --coverage"
+	},
+	"files": [
+		"dist"
+	],
+	"types": "dist/index.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AidenHadisi/Joi-Decorators.git"
+	},
+	"keywords": [
+		"joi",
+		"validation",
+		"validator",
+		"decorator",
+		"valid",
+		"validate"
+	],
+	"bugs": {
+		"url": "https://github.com/AidenHadisi/Joi-Decorators/issues"
+	},
+	"homepage": "https://github.com/AidenHadisi/Joi-Decorators#readme",
+	"dependencies": {
+		"joi": "^17.4.2",
+		"tslib": "^2.3.1"
+	},
+	"devDependencies": {
+		"@types/jest": "^27.0.1",
+		"@types/node": "^16.7.1",
+		"jest": "^27.0.6",
+		"reflect-metadata": "^0.1.13",
+		"ts-jest": "^27.0.5",
+		"ts-node": "^10.2.1",
+		"typescript": "^4.3.5"
+	},
+	"jest": {
+		"globals": {
+			"ts-jest": {
+				"isolatedModules": true
+			}
+		}
+	},
+	"ts-node": {
+		"files": true
+	}
+}
