@@ -14,7 +14,6 @@ export const Valid =
 				typeof propertyKey === "undefined" ? "constructor" : propertyKey;
 			let existingParameters: ParameterSchemaData[] =
 				Reflect.getOwnMetadata(JOI_PARAMETER, target, propertyKey) || [];
-			// Add a metadata entry that marks the current parameter as constrained by the given schema
 			existingParameters.push({
 				parameterIndex: parameterIndex,
 				schema: schema,
