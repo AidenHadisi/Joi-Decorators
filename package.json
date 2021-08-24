@@ -1,5 +1,5 @@
 {
-	"name": "joi-decorators",
+	"name": "@aidenhadisi/joi-decorators",
 	"version": "1.0.0",
 	"description": "Typescript decorators for Joi validator.",
 	"exports": "./dist/index.js",
