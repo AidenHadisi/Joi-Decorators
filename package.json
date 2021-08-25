@@ -10,8 +10,9 @@
 		"node": ">=12"
 	},
 	"scripts": {
-		"build": "del dist && tsc",
-		"prepare": "npm run build",
+		"build": "tsc",
+		"clean": "rimraf ./dist",
+		"prepare": "yarn clean && yarn build",
 		"test": "jest",
 		"coverage": "jest --coverage"
 	},
