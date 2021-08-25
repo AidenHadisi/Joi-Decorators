@@ -18,7 +18,6 @@
 	},
 	"files": [
 		"dist",
-		"types",
 		"src"
 	],
 	"repository": {

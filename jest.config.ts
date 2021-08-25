@@ -7,4 +7,9 @@ export default {
 	testPathIgnorePatterns: ["/node_modules/"],
 	setupFilesAfterEnv: ["./jest.setup.ts"],
 	testEnvironment: "node",
+	globals: {
+		"ts-jest": {
+			tsConfig: "./src/__tests__/tsconfig.json",
+		},
+	},
 };
