@@ -1,6 +1,6 @@
 {
 	"name": "@aidenhadisi/joi-decorators",
-	"version": "1.2.0",
+	"version": "1.3.0",
 	"description": "Typescript decorators for Joi validator.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
