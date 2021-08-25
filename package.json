@@ -1,8 +1,9 @@
 {
 	"name": "@aidenhadisi/joi-decorators",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Typescript decorators for Joi validator.",
-	"exports": "./dist/index.js",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
 	"author": "Aiden Hadisi",
 	"license": "MIT",
 	"engines": {
@@ -15,9 +16,10 @@
 		"coverage": "jest --coverage"
 	},
 	"files": [
-		"dist"
+		"dist",
+		"types",
+		"src"
 	],
-	"types": "dist/index.d.ts",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/AidenHadisi/Joi-Decorators.git"

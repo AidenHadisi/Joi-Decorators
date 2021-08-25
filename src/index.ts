@@ -4,5 +4,5 @@ if (typeof Reflect === "undefined" || !Reflect.getMetadata) {
 	);
 }
 
-export { Valid } from "./Valid";
-export { Validate } from "./Validate";
+export * from "./Valid";
+export * from "./Validate";
